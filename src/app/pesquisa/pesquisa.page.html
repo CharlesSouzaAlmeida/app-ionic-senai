@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>pesquisa</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-searchbar [(ngModel)]="title" (keyup)="filtrar($event)"></ion-searchbar>
+  <ion-list>
+    <ion-item *ngFor="let listapesquisa of pesquisafeita"> 
+     {{ listapesquisa.title}}
+    </ion-item>
+  </ion-list>
+</ion-content>
