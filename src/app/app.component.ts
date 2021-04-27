@@ -19,11 +19,11 @@ export class AppComponent {
     { title: 'Porta usb', url: 'portausb', icon: 'pint' },
     { title: 'Queda quadros', url: 'quedaquadros', icon: 'desktop' },
     { title: 'Wifi não conecta', url: 'naoconecta', icon: 'radio' }, */
-    { title: ' Fazer uma Pesquisa', url: 'pesquisa', icon: 'power' },
-    { title: 'Problema de Hardware', url: 'hardware', icon: 'power' },
-    { title: 'Problema de Software', url: 'software', icon: 'power' },
-    { title: 'Redes', url: 'redes', icon: 'power' },
-    { title: 'Cadastra novo problema', url: 'ticket-novo', icon: 'power' },
+    { title: ' Fazer uma Pesquisa', url: 'pesquisa', icon: 'search-circle' },
+    { title: 'Problemas de Hardware', url: 'hardware', icon: 'hardware-chip' },
+    { title: 'Problemas de Software', url: 'software', icon: 'layers' },
+    { title: 'Problemas de Redes', url: 'redes', icon: 'wifi' },
+    { title: 'Cadastrar novo problemas', url: 'ticket-novo', icon: 'alert-circle' },
   ];
  /*  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders']; */
   constructor() {}
